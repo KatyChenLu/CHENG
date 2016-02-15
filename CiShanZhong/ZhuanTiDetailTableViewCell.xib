@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="411" id="KGk-i7-Jjw" customClass="ZhuanTiDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="411"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="410"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOU-Wr-Xj2">
+                        <rect key="frame" x="10" y="30" width="321" height="300"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="300" id="e4O-hI-lgL"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7u8-vk-XLc">
+                        <rect key="frame" x="10" y="338" width="323" height="62"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0R-sS-WZB">
+                        <rect key="frame" x="21" y="10" width="310" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="tJw-y2-etr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znO-7T-fXM">
+                        <rect key="frame" x="10" y="8" width="8" height="20"/>
+                        <color key="backgroundColor" red="0.61341270660000002" green="0.2072685125" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="SbL-5X-ElZ"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArticleCoverMask" translatesAutoresizingMaskIntoConstraints="NO" id="eR0-sW-Ske">
+                        <rect key="frame" x="8" y="260" width="323" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="BAG-py-nRw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mn-7w-kHV">
+                        <rect key="frame" x="21" y="281" width="310" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="PF1-Kt-Kea"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oOU-Wr-Xj2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="8VK-TJ-a5A"/>
+                    <constraint firstItem="eR0-sW-Ske" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="8Zw-qH-mSA"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="oOU-Wr-Xj2" secondAttribute="trailing" constant="2" id="MpK-3A-mu9"/>
+                    <constraint firstItem="oOU-Wr-Xj2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="Ms0-5Q-xbR"/>
+                    <constraint firstItem="7u8-vk-XLc" firstAttribute="top" secondItem="oOU-Wr-Xj2" secondAttribute="bottom" constant="8" id="NDM-dR-p50"/>
+                    <constraint firstAttribute="bottom" secondItem="7u8-vk-XLc" secondAttribute="bottom" constant="10" id="Rcw-zd-nK1"/>
+                    <constraint firstItem="s0R-sS-WZB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="T7r-RN-qJA"/>
+                    <constraint firstItem="oOU-Wr-Xj2" firstAttribute="top" secondItem="s0R-sS-WZB" secondAttribute="bottom" id="ZeS-iT-Vkz"/>
+                    <constraint firstItem="znO-7T-fXM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="aIt-eJ-yiL"/>
+                    <constraint firstAttribute="trailing" secondItem="s0R-sS-WZB" secondAttribute="trailing" constant="10" id="aKQ-2y-Rr7"/>
+                    <constraint firstItem="7u8-vk-XLc" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="cTe-Rl-IYv"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="0Mn-7w-kHV" secondAttribute="trailing" constant="2" id="em8-sH-Klf"/>
+                    <constraint firstItem="s0R-sS-WZB" firstAttribute="leading" secondItem="znO-7T-fXM" secondAttribute="trailing" constant="3" id="gzb-Ri-Oya"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eR0-sW-Ske" secondAttribute="trailing" constant="2" id="kvm-cz-NvF"/>
+                    <constraint firstItem="7u8-vk-XLc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="mCV-jB-AHG"/>
+                    <constraint firstItem="s0R-sS-WZB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="nCm-0I-fYp"/>
+                    <constraint firstItem="eR0-sW-Ske" firstAttribute="top" secondItem="s0R-sS-WZB" secondAttribute="bottom" constant="230" id="po6-Gv-4x3"/>
+                    <constraint firstItem="znO-7T-fXM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="qau-EB-Iik"/>
+                    <constraint firstItem="0Mn-7w-kHV" firstAttribute="top" secondItem="s0R-sS-WZB" secondAttribute="bottom" constant="251" id="syo-wd-VfT"/>
+                    <constraint firstItem="0Mn-7w-kHV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="13" id="xD4-19-XLZ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Ms0-5Q-xbR"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ArticleHeight" destination="BAG-py-nRw" id="eni-UD-WaF"/>
+                <outlet property="ArticleImageView" destination="eR0-sW-Ske" id="D1H-fH-ILI"/>
+                <outlet property="descLabel" destination="7u8-vk-XLc" id="U0T-9T-w3J"/>
+                <outlet property="imageButton" destination="oOU-Wr-Xj2" id="uLd-gX-TVS"/>
+                <outlet property="imageButtonHeight" destination="e4O-hI-lgL" id="Skx-9A-SIX"/>
+                <outlet property="kuaiViewHeight" destination="SbL-5X-ElZ" id="Hsx-I5-z66"/>
+                <outlet property="titilLabelheight" destination="tJw-y2-etr" id="Bdd-PJ-bDr"/>
+                <outlet property="titleLabel" destination="s0R-sS-WZB" id="sCx-TS-4V6"/>
+                <outlet property="userHeight" destination="PF1-Kt-Kea" id="lK5-Od-P7g"/>
+                <outlet property="userLabel" destination="0Mn-7w-kHV" id="KTx-fO-iIL"/>
+            </connections>
+            <point key="canvasLocation" x="78.5" y="142.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ArticleCoverMask" width="64" height="64"/>
+    </resources>
+</document>

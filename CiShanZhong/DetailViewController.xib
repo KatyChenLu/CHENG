@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
+            <connections>
+                <outlet property="scrollView" destination="TWG-3M-MBb" id="kfO-cd-BJW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TWG-3M-MBb" customClass="MMParallaxPresenter">
+                    <rect key="frame" x="-1" y="0.0" width="600" height="600"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TWG-3M-MBb" secondAttribute="bottom" id="JI7-22-9oJ"/>
+                <constraint firstItem="TWG-3M-MBb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xep-gc-oko"/>
+                <constraint firstAttribute="trailing" secondItem="TWG-3M-MBb" secondAttribute="trailing" id="dWY-uo-GuD"/>
+                <constraint firstItem="TWG-3M-MBb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="g7E-GL-dSC"/>
+            </constraints>
+            <point key="canvasLocation" x="429" y="390"/>
+        </view>
+    </objects>
+</document>

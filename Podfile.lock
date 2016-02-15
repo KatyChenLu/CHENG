@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMap2DMap (3.3.0)
+  - AMapSearch (3.2.0)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - JSONModel (1.2.0)
+  - Masonry (0.6.4)
+  - MJRefresh (3.1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - UMengSocial (4.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMap2DMap
+  - AMapSearch
+  - FMDB
+  - JSONModel
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+  - UMengSocial (~> 4.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AMap2DMap: e53461cdc345375e514579db17dbd721ff9ed9eb
+  AMapSearch: a885f0702578a441a22cb66fa74f8918c6d19e6f
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  UMengSocial: aba7296602310385114d82c255539a7bef3b7ab0
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HotTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMk-Vk-JRD">
+                        <rect key="frame" x="75" y="8" width="50" height="34"/>
+                        <color key="backgroundColor" red="0.40515553045708452" green="0.65501498559884497" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="GW0-EQ-4ja"/>
+                            <constraint firstAttribute="height" constant="34" id="g3x-8h-iKS"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="olV-dA-ydi"/>
+                        </constraints>
+                        <state key="normal" title="lulu">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="touchButton2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="RGY-yW-CRU"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PTB-rH-fyA">
+                        <rect key="frame" x="195" y="8" width="50" height="34"/>
+                        <color key="backgroundColor" red="0.31328035961472311" green="0.68741873252658636" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="JEb-41-yBL"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="j5j-ed-43Z"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="qy1-NM-Hyk"/>
+                        </constraints>
+                        <state key="normal" title="luu">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="touchButton3:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="G9A-uR-73Y"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7H-I1-OIc">
+                        <rect key="frame" x="250" y="8" width="50" height="34"/>
+                        <color key="backgroundColor" red="0.089377277609803074" green="0.76380635342253878" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="Lph-uZ-jeV"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="LuA-Vw-MgD"/>
+                            <constraint firstAttribute="height" constant="34" id="bcj-Zv-Qel"/>
+                        </constraints>
+                        <state key="normal" title="lluu">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="touchButton4:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5dT-lg-GE6"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abk-r9-Gri">
+                        <rect key="frame" x="17" y="8" width="50" height="34"/>
+                        <color key="backgroundColor" red="0.45251800159714328" green="0.51999150924782023" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="4y8-oV-IC8"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="9Yb-7L-5vY"/>
+                            <constraint firstAttribute="height" constant="34" id="t3q-4M-nbb"/>
+                        </constraints>
+                        <state key="normal" title="lululu">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="touchButton1:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Qx1-Rl-w8F"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Abk-r9-Gri" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8Bi-OM-Ngr"/>
+                    <constraint firstItem="f7H-I1-OIc" firstAttribute="leading" secondItem="PTB-rH-fyA" secondAttribute="trailing" constant="5" id="Frs-I0-iEw"/>
+                    <constraint firstItem="Abk-r9-Gri" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="GAx-Tj-iPs"/>
+                    <constraint firstItem="WMk-Vk-JRD" firstAttribute="leading" secondItem="Abk-r9-Gri" secondAttribute="trailing" constant="5" id="Rs4-uW-7g4"/>
+                    <constraint firstItem="WMk-Vk-JRD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gW2-pu-seV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="f7H-I1-OIc" secondAttribute="trailing" constant="12" id="mf7-by-Z3H"/>
+                    <constraint firstItem="f7H-I1-OIc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="oAz-1H-Gp1"/>
+                    <constraint firstItem="PTB-rH-fyA" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vXc-Hl-89Q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="hotButton1" destination="Abk-r9-Gri" id="GlZ-lc-XE4"/>
+                <outlet property="hotButton2" destination="WMk-Vk-JRD" id="TgP-b6-mWe"/>
+                <outlet property="hotButton3" destination="PTB-rH-fyA" id="8wt-Az-oBK"/>
+                <outlet property="hotButton4" destination="f7H-I1-OIc" id="4Xr-Nz-kpJ"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="278"/>
+        </tableViewCell>
+    </objects>
+</document>

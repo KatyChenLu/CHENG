@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  CiShanZhong
+//
+//  Created by KatyChn on 15/12/25.
+//  Copyright © 2015年 陈璐. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//URL
+#define FeaturedURL @"https://chanyouji.com/api/trips/featured.json?page=%ld"
+#define DetailURL @"https://chanyouji.com/api/trips/%@.json"
+
+#define DestinationURL @"https://chanyouji.com/api/destinations.json"
+#define DestinationDetailURL @"https://chanyouji.com/api/destinations/%@.json"
+
+#define XingChengURL @"https://chanyouji.com/api/destinations/plans/%@.json?page=1"
+#define ZhuanTiURL @"https://chanyouji.com/api/articles.json?page=%ld"
+#define ZhuanTiDetailURL @"https://chanyouji.com/api/articles/%@.json"
+#define LvXingDiURL @"http://chanyouji.com/api/destinations/attractions/%d.json?per_page=20&page=%d"
+
+#define SouSuoURL @"http://chanyouji.com/api/search/wiki?q=%E6%B2%B3%E5%8D%97"
+//COLOR
+#define WHITECOLOR [UIColor whiteColor]
+#define BLUECOLOR [UIColor colorWithRed:100/255.0 green:149/255.0 blue:237/255.0 alpha:0.5]
+
+//FONT
+#define FONT [UIFont fontWithName:@"FZLTXHK--GBK1-0" size:20]
+#define XIFONF [UIFont fontWithName:@"HelveticaNeue-Thin" size:15]
+#define XIXIAOFONF [UIFont fontWithName:@"HelveticaNeue-Thin" size:15]
+
+#define ARCNUM arc4random_uniform(11)+1
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

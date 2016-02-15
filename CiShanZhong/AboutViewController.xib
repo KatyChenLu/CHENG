@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lantinghei_0.ttf">
+            <string>FZLTXHK--GBK1-0</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="555"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon－1024" translatesAutoresizingMaskIntoConstraints="NO" id="V2S-bP-4xK">
+                    <rect key="frame" x="122" y="108" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="6fr-xM-a4g"/>
+                        <constraint firstAttribute="width" constant="80" id="T7E-4E-wOZ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAU-0P-P0n">
+                    <rect key="frame" x="80" y="196" width="165" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="165" id="OWj-9T-NbF"/>
+                        <constraint firstAttribute="height" constant="45" id="U0k-s4-pEr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="30"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEQ-Ki-Bro">
+                    <rect key="frame" x="62" y="276" width="200" height="254"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="254" id="0RY-Fh-IAI"/>
+                        <constraint firstAttribute="width" constant="200" id="y4t-Bh-2rb"/>
+                    </constraints>
+                    <string key="text">这是一款关于游记的另类的App。那些一生只见一次的美景你怎么舍得遗忘,10分钟写出漂亮游记
+有时，生命只是一组镜头。在路上匆匆的人啊，你会从相片和文字里看见过去的样子，然后继续踏上旅程。                       合作联系：QQ630001384</string>
+                    <fontDescription key="fontDescription" name="FZLTXHK--GBK1-0" family="Lantinghei SC" pointSize="16"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="tAU-0P-P0n" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0uo-g6-12s"/>
+                <constraint firstItem="UEQ-Ki-Bro" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6cI-BN-G9d"/>
+                <constraint firstItem="V2S-bP-4xK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BQJ-fQ-MDi"/>
+                <constraint firstItem="tAU-0P-P0n" firstAttribute="top" secondItem="V2S-bP-4xK" secondAttribute="bottom" constant="8" id="MZG-vx-FsW"/>
+                <constraint firstItem="V2S-bP-4xK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="108" id="Mif-C2-VZO"/>
+                <constraint firstItem="UEQ-Ki-Bro" firstAttribute="top" secondItem="tAU-0P-P0n" secondAttribute="bottom" constant="35" id="rj0-TL-L6F"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="204" y="308.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon－1024" width="1024" height="1024"/>
+    </resources>
+</document>

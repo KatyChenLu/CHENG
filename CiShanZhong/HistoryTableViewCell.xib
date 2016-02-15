@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="62" id="KGk-i7-Jjw" customClass="HistoryTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcU-l1-YrY">
+                        <rect key="frame" x="285" y="15" width="27" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="IXc-V9-Ghp"/>
+                            <constraint firstAttribute="width" constant="27" id="vTu-94-car"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="AdPopCloseHighlight"/>
+                        <connections>
+                            <action selector="buttonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="m2V-Ml-CWH"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="陈璐" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbl-lF-vMb">
+                        <rect key="frame" x="21" y="0.0" width="60" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnC-vy-a7d">
+                        <rect key="frame" x="15" y="49" width="290" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="6gk-c6-VQB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zbl-lF-vMb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="2u1-IF-aDK"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="hnC-vy-a7d" secondAttribute="bottom" constant="-6" id="3DX-IK-dQH"/>
+                    <constraint firstItem="GcU-l1-YrY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4cN-WL-QEH"/>
+                    <constraint firstItem="GcU-l1-YrY" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="H5e-DK-su1"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zbl-lF-vMb" secondAttribute="bottom" constant="-6" id="JaV-CY-5b4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hnC-vy-a7d" secondAttribute="trailing" constant="7" id="WGM-XZ-N20"/>
+                    <constraint firstItem="zbl-lF-vMb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="13" id="aw4-ip-Iph"/>
+                    <constraint firstItem="hnC-vy-a7d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="li9-pZ-HVI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="historyTextLabel" destination="zbl-lF-vMb" id="Ob2-vE-yYn"/>
+                <outlet property="lineView" destination="hnC-vy-a7d" id="obD-mJ-nj0"/>
+            </connections>
+            <point key="canvasLocation" x="147" y="297.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AdPopCloseHighlight" width="22" height="22"/>
+    </resources>
+</document>
